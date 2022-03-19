@@ -18,7 +18,7 @@ export default function NavBar() {
     <nav className="NavBar">
       <div className="Logo">
         <Link to="/" className="Link">
-          <h1> The Da </h1>
+          <h1 className="TitleTheDa"> The Da </h1>
         </Link>
         <ul id="Dd">
           <li>
