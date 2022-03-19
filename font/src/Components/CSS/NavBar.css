@@ -13,7 +13,7 @@
 .Logo {
     margin: 0px 3rem 0px 3rem;
     display: flex;
-    letter-spacing: 0.4rem;
+    /* letter-spacing: 0.4rem; */
     font-size: 1.3rem;
     cursor: pointer;
     align-items: center;
