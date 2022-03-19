@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+@font-face {
+    font-family: Manrope;
+    src: url(./../../Manrope/static/Manrope-ExtraBold.ttf);
+}
+
 .NavBar {
     display: flex;
     justify-content: space-between;
@@ -11,9 +16,12 @@
     letter-spacing: 0.4rem;
     font-size: 1.3rem;
     cursor: pointer;
+    align-items: center;
 }
 
-.TitleTheDa {}
+.TitleTheDa {
+    font-family: Manrope;
+}
 
 .Logo ul {
     margin-left: 1rem;
@@ -54,7 +62,7 @@
 
 .Link {
     text-decoration: none;
-    font-family: "Festive", cursive;
+    /* font-family: "Festive", cursive; */
     color: black;
 }
 
