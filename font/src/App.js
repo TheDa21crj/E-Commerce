@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 import MyAccount from "./Pages/MyAccount";
@@ -16,9 +17,12 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 function App() {
-  store.subscribe(() => {
-    console.log(store.getState());
-  });
+  useEffect(() => {
+    store.subscribe(() => {
+      console.table(store.getState());
+    });
+  }, []);
+
   return (
     <BrowserRouter>
       <Provider store={store}>
