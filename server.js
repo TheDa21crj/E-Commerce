@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 const express = require("express");
 const connectDB = require("./config/db");
 const cookieParser = require("cookie-parser");
-const path = require("path");
+// const path = require("path");
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, "/font/build")));
+// app.use(express.static(path.join(__dirname, "/font/build")));
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
