@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server",
-    "font": "npm start --prefix font",
-    "dev": "concurrently \"npm run server\" \"npm run font\""
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
