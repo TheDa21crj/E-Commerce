@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import PostContentCom from "../Components/Admin/PostContent";
 import UpdateProduct from "../Components/Admin/UpdateProduct";
 import TagAdd from "../Components/Admin/TagAdd";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import PCcs from "./Css/PostContent.module.css";
 
 export default function PostContent() {
