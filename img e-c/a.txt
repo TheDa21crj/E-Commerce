@@ -1,1 +1,0 @@
-mongodb+srv://Rishav:<password>@e-commerce.pmv1p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
