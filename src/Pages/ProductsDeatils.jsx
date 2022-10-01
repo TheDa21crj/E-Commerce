@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import PDCss from "./Css/ProductDetails.module.css";
 import SizeChart from "../Components/Product/SizeChart";
 import StarIcon from "@mui/icons-material/Star";

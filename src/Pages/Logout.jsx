@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 // redux
 import { addWish } from "../redux/userSlice";
-import { toggleN } from "../redux/toggleNav";
 import { adduser } from "../redux/user";
 import { useDispatch } from "react-redux";
 

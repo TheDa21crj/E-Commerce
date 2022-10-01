@@ -23,28 +23,34 @@ export default function Home() {
 
   const DataGet = async () => {
     try {
-      const res = await fetch("/api/admin/Products/NewArival", {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        credentials: "include",
-      });
+      const res = await fetch(
+        "https://seashell-app-k5r84.ondigitalocean.app/api/admin/Products/NewArival",
+        {
+          method: "GET",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          credentials: "include",
+        }
+      );
 
       const dataNA = await res.json();
       if (dataNA.errors) {
         return console.log("error");
       }
 
-      const res0 = await fetch("/api/admin/Products/TopSelling", {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        credentials: "include",
-      });
+      const res0 = await fetch(
+        "https://seashell-app-k5r84.ondigitalocean.app/api/admin/Products/TopSelling",
+        {
+          method: "GET",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          credentials: "include",
+        }
+      );
 
       const dataTS = await res0.json();
       if (dataNA.errors) {

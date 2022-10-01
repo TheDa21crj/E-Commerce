@@ -7,9 +7,7 @@ import AddAddress from "./AddAddress";
 import DeleteAddress from "./DeleteAddress";
 import Loading from "./../../Img/loading.gif";
 // redux
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { adduser } from "./../../redux/user";
 
 export default function MyAddress(props) {
   const [showload, setload] = useState(true);

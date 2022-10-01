@@ -9,7 +9,7 @@ export default function Member() {
       <p className={MemCss.titlePtag}>Become An Exclusive Member</p>
       <div className={MemCss.CarsPricemDiv}>
         <div
-          id={selected == "1" ? "Selected" : "notSelected"}
+          id={selected === "1" ? "Selected" : "notSelected"}
           onClick={() => {
             setSelect("1");
           }}
@@ -23,7 +23,7 @@ export default function Member() {
           />
         </div>
         <div
-          id={selected == "2" ? "Selected" : "notSelected"}
+          id={selected === "2" ? "Selected" : "notSelected"}
           onClick={() => {
             setSelect("2");
           }}
@@ -37,7 +37,7 @@ export default function Member() {
           />
         </div>
         <div
-          id={selected == "3" ? "Selected" : "notSelected"}
+          id={selected === "3" ? "Selected" : "notSelected"}
           onClick={() => {
             setSelect("3");
           }}
